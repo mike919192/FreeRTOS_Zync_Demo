@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\repos\FreeRTOS_Test\platform\export\platform\sw\boot\fsbl.elf
+	E:\repos\FreeRTOS_Test\rtos_test\_ide\bitstream\System_wrapper.bit
+	E:\repos\FreeRTOS_Test\rtos_test\build\rtos_test.elf
+}

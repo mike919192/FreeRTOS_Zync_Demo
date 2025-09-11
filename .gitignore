@@ -1,0 +1,13 @@
+.vscode/settings.json
+.cache
+_ide
+.rigel_lopper
+vitis-comp.json
+platform
+compile_commands.json
+build
+CMakeUserPresets.json
+rtos_test/src/.clangd
+rtos_test/src/app.yaml
+rtos_test/src/README.txt
+rtos_test/src/Empty_applicationExample.cmake
