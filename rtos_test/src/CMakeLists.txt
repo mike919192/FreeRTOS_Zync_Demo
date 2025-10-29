@@ -104,7 +104,7 @@ target_link_libraries(
 target_compile_definitions(xil_bsp INTERFACE ${USER_COMPILE_DEFINITIONS})
 target_include_directories(xil_bsp INTERFACE ${USER_INCLUDE_DIRECTORIES})
 
-add_subdirectory(external/FreeRTOS_Zynq_Port)
+add_subdirectory(external/freertos_ports/GCC/ARM_CA9_Zynq7000)
 
 FetchContent_MakeAvailable(freertos_kernel)
 #add_subdirectory(external/TraceRecorder)

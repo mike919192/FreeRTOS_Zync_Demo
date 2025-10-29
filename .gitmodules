@@ -1,0 +1,3 @@
+[submodule "rtos_test/src/external/freertos_ports"]
+	path = rtos_test/src/external/freertos_ports
+	url = https://github.com/mike919192/FreeRTOS-Kernel-Community-Supported-Ports.git

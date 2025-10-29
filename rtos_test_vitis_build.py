@@ -39,7 +39,7 @@ domain0_obj.set_config(option = 'lib', lib_name = 'xiltimer', param = 'XILTIMER_
 #[Out]# True
 
 #apply bsp patch
-shutil.copytree("rtos_test/src/external/FreeRTOS_Zynq_Port/bsp_patch", "platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/standalone/src/arm/cortexa9/gcc", dirs_exist_ok=True)
+shutil.copytree("rtos_test/src/external/freertos_ports/GCC/ARM_CA9_Zynq7000/bsp_patch", "platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/standalone/src/arm/cortexa9/gcc", dirs_exist_ok=True)
 
 platform_obj.build()
 #[Out]# 0
