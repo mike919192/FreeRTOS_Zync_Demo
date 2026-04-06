@@ -67,7 +67,7 @@ include(FetchContent)
 FetchContent_Declare(
     freertos_kernel
     GIT_REPOSITORY https://github.com/FreeRTOS/FreeRTOS-Kernel.git
-    GIT_TAG V11.2.0
+    GIT_TAG V11.3.0
     # Don't grab any submodules
     GIT_SUBMODULES ""
 )
